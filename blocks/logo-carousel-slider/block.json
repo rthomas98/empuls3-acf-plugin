@@ -1,0 +1,17 @@
+{
+  "name": "acf/logo-carousel-slider",
+  "title": "Logo Carousel Slider (ACF Block)",
+  "description": "Displays a logo carousel slider.",
+  "category": "empuls3-acf-blocks",
+  "icon": "image-flip-horizontal",
+  "keywords": ["logo", "carousel", "slider"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": false,
+    "anchor": true,
+    "mode": false
+  }
+}
