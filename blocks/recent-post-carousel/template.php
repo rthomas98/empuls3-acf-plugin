@@ -32,7 +32,7 @@ if ( ! empty( $block['align'] ) ) {
     }
 </style>
 
-<section id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> recent-post-carousel py-5">
+<section id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> recent-post-carousel py-5 position-relative">
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-sm-12 col-md-12 col-lg-4 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
@@ -45,7 +45,7 @@ if ( ! empty( $block['align'] ) ) {
 
                 <?php $button_link = get_field( 'button_link' ); ?>
                 <?php if ( $button_link ) : ?>
-                    <a class="btn btn-primary" href="<?php echo esc_url( $button_link ); ?>">
+                    <a class="btn btn-primary btn-lg" href="<?php echo esc_url( $button_link ); ?>">
                         <?php the_field( 'button_label' ); ?> <span class="ml-3"><i class="fa-regular fa-chevron-right "></i></span>
                     </a>
                 <?php endif; ?>
@@ -78,9 +78,6 @@ if ( ! empty( $block['align'] ) ) {
                     </div>
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
         </div>
