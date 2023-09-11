@@ -3,6 +3,24 @@
     "title": "Block: Purple Hero",
     "fields": [
         {
+            "key": "field_64fb8de8df4a9",
+            "label": "Background Color",
+            "name": "background_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#231b53",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
             "key": "field_64fb17a9358f2",
             "label": "Sub Title",
             "name": "sub_title",
@@ -188,5 +206,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694177720
+    "modified": 1694207590
 }

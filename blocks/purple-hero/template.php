@@ -34,10 +34,11 @@ if ( ! empty( $block['align'] ) ) {
     }
 </style>
 
-<section id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> purple-hero position-relative">
+<section style="background: <?php the_field( 'background_color' ); ?>" id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> purple-hero position-relative">
+    <img class="stripe-right" src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/stripe-right.svg" alt="a red line">
     <div class="container">
         <div class="row d-flex align-items-center">
-            <div class="col-sm-12 col-md-12 col-lg-6 mb-4 mb-sm-4 mb-md-4 mb-lg-0 p-sm-5 p-md-4 p-lg-0">
+            <div class="col-sm-12 col-md-12 col-lg-6 mb-4 mb-sm-4 mb-md-4 mb-lg-0 p-sm-5 p-md-4 p-lg-0 hero-text">
                 <p class="lead">
                     <?php the_field( 'sub_title' ); ?>
                 </p>
@@ -68,7 +69,7 @@ if ( ! empty( $block['align'] ) ) {
             <div class="col-sm-12 col-md-12 col-lg-6 text-center">
                 <?php $hero_image = get_field( 'hero_image' ); ?>
                 <?php if ( $hero_image ) : ?>
-                    <img src="<?php echo esc_url( $hero_image['url'] ); ?>" alt="<?php echo esc_attr( $hero_image['alt'] ); ?>" />
+                    <img class="hero-img" src="<?php echo esc_url( $hero_image['url'] ); ?>" alt="<?php echo esc_attr( $hero_image['alt'] ); ?>" />
                 <?php endif; ?>
             </div>
         </div>

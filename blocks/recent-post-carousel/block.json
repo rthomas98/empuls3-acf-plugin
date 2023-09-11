@@ -1,10 +1,10 @@
 {
-  "name": "acf/purple-hero",
-  "title": "Purple Hero",
+  "name": "acf/recent-post-carousel-hero",
+  "title": "Recent Post Carousel",
   "description": "Display hero banner.",
   "category": "empuls3-acf-blocks",
-  "icon": "full-width",
-  "keywords": ["hero", "banner", "purple"],
+  "icon": "images-alt2",
+  "keywords": ["post", "blog", "carousel"],
   "acf": {
     "mode": "preview",
     "renderTemplate": "template.php"
@@ -13,10 +13,5 @@
     "align": true,
     "anchor": true,
     "mode": false
-  },
-  "example": {
-    "attributes": {
-      "empuls3_acf_phone_number": "555 123-4567"
-    }
   }
 }
