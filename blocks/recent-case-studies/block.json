@@ -1,0 +1,17 @@
+{
+  "name": "acf/recent-case-studies",
+  "title": "Recent Case Studies",
+  "description": "Display the most recent case studies.",
+  "category": "empuls3-acf-blocks",
+  "icon": "admin-page",
+  "keywords": ["case studies", "recent"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "mode": false
+  }
+}
