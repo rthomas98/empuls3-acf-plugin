@@ -1,10 +1,10 @@
 {
-    "key": "ui_options_page_650529ca76784",
-    "title": "Header Settings",
+    "key": "ui_options_page_650529ebb8787",
+    "title": "Footer Settings",
     "active": true,
     "menu_order": 0,
-    "page_title": "Header Settings",
-    "menu_slug": "header-settings",
+    "page_title": "Footer Settings",
+    "menu_slug": "footer-settings",
     "parent_slug": "theme-settings",
     "advanced_configuration": 0,
     "icon_url": "",
@@ -19,5 +19,5 @@
     "post_id": "",
     "autoload": 0,
     "_parent": 112,
-    "modified": 1694837218
+    "modified": 1694837245
 }

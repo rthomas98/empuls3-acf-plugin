@@ -1,0 +1,18 @@
+{
+  "name": "acf/hero-with-slider",
+  "title": "Hero With Slider",
+  "description": "Displays a hero with a slider",
+  "category": "empuls3-acf-blocks",
+  "icon": "",
+  "keywords": ["hero", "slider", "images"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "mode": true
+
+  }
+}

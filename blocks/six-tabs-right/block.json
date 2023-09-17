@@ -1,0 +1,18 @@
+{
+  "name": "acf/six-tabs-right",
+  "title": "Six Tabs Right",
+  "description": "Displays six tabs with content on the left side of the page.",
+  "category": "empuls3-acf-blocks",
+  "icon": "",
+  "keywords": ["tabs", "six"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "mode": true
+
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "acf/capability-hero",
+  "title": "Capability Hero",
+  "description": "Displays a hero image with a content",
+  "category": "empuls3-acf-blocks",
+  "icon": "",
+  "keywords": ["capability", "hero", "image", "content"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "mode": true
+
+  }
+}

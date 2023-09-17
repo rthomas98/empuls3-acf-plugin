@@ -1,0 +1,17 @@
+{
+  "name": "acf/yellow-cta-img-right",
+  "title": "Yellow CTA Image Right",
+  "description": "Displays a yellow CTA with an image on the right",
+  "category": "empuls3-acf-blocks",
+  "icon": "",
+  "keywords": ["cta", "image right", "yellow"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "mode": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "acf/dark-contact",
+  "title": "Dark Contact Form",
+  "description": "Display a dark contact form with a background.",
+  "category": "empuls3-acf-blocks",
+  "icon": "",
+  "keywords": ["form", "contact", "dark"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "mode": false
+  }
+}
