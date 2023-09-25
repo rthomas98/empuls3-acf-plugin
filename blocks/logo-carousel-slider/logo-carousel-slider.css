@@ -1,0 +1,4 @@
+.logo-carousel img {
+    object-fit: cover;
+    filter: grayscale(100%);
+}

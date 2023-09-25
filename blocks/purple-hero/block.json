@@ -2,6 +2,7 @@
   "name": "acf/purple-hero",
   "title": "Purple Hero",
   "description": "Display hero banner.",
+  "style": [ "file:./purple-hero.css"],
   "category": "empuls3-acf-blocks",
   "icon": "full-width",
   "keywords": ["hero", "banner", "purple"],
@@ -13,10 +14,5 @@
     "align": true,
     "anchor": true,
     "mode": false
-  },
-  "example": {
-    "attributes": {
-      "empuls3_acf_phone_number": "555 123-4567"
-    }
   }
 }

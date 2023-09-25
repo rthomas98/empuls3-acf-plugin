@@ -1,0 +1,35 @@
+
+.purple-hero {
+    color: #fff;
+}
+
+.purple-hero .hero-img {
+    z-index: 10;
+    position: relative;
+}
+
+.purple-hero .hero-text {
+    z-index: 100;
+    position: relative;
+}
+
+.purple-hero h1 {
+    color: white;
+}
+
+.purple-hero .lead {
+    color: #FFC259;
+}
+
+.purple-hero .stripe-right {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    z-index: 0;
+}
+
+@media (min-width: 768px) {
+    .purple-hero .stripe-right {
+        display: none;
+    }
+}

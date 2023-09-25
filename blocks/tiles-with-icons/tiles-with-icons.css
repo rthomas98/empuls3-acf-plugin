@@ -1,0 +1,38 @@
+.tiles-icons {
+    background-color: #BD1550;
+}
+tiles-icons  .tile {
+    background-color: #93123F;
+    border-radius: 20px;
+}
+
+.tiles-icons .tile .lead {
+    color: #FFC259;
+}
+
+.tiles-icons .tile .icon-holder {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #FFC259;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.tiles-icons .tile .icon-holder i {
+    font-size: 2rem;
+    color: #231B53;
+}
+
+
+.tiles-icons .tile .icon-holder h2 {
+    color: white;
+}
+
+.tiles-icons .tile .icon-holder h3 {
+    color: white;
+}
+.tiles-icons .tile .icon-holder p {
+    color: white;
+}

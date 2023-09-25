@@ -37,7 +37,7 @@ if ( ! empty( $block['align'] ) ) {
         <div class="container">
             <div class="row d-flex align-items-center">
             <?php while ( have_rows( 'logos' ) ) : the_row(); ?>
-                <div class="col text-center logo-carousel">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center logo-carousel mb-4 mb-sm-4 mb-md-4 mb-lg-0">
                     <?php $logo = get_sub_field( 'logo' ); ?>
                     <?php if ( $logo ) : ?>
                         <img src="<?php echo esc_url( $logo['url'] ); ?>" alt="<?php echo esc_attr( $logo['alt'] ); ?>" width="80" />

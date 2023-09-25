@@ -2,6 +2,7 @@
   "name": "acf/logo-carousel-slider",
   "title": "Logo Carousel Slider",
   "description": "Displays a logo carousel slider.",
+  "style": [ "file:./logo-carousel-slider.css"],
   "category": "empuls3-acf-blocks",
   "icon": "image-flip-horizontal",
   "keywords": ["logo", "carousel", "slider"],

@@ -35,7 +35,7 @@ if ( ! empty( $block['align'] ) ) {
 </style>
 
 <section style="background: <?php the_field( 'background_color' ); ?>" id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> purple-hero position-relative">
-    <img class="stripe-right" src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/stripe-right.svg" alt="a red line">
+    
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-sm-12 col-md-12 col-lg-6 mb-4 mb-sm-4 mb-md-4 mb-lg-0 p-sm-5 p-md-4 p-lg-0 hero-text">

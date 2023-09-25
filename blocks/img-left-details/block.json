@@ -2,6 +2,7 @@
   "name": "acf/img-left-details",
   "title": "Image Left With Details",
   "description": "Displays a section with an image to the left and details on the right.",
+  "style": [ "file:./img-left-details.css"],
   "category": "empuls3-acf-blocks",
   "icon": "align-pull-left",
   "keywords": ["left", "image", "details"],
