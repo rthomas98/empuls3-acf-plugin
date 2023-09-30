@@ -1,0 +1,52 @@
+.dark-contact {
+    background: linear-gradient(270deg, #bd1550, #1f1946);
+    background-size: 400% 400%;
+
+    -webkit-animation: PinkAndPurpleBackground 18s ease infinite;
+    -moz-animation: PinkAndPurpleBackground 18s ease infinite;
+    animation: PinkAndPurpleBackground 18s ease infinite;
+    color: white;
+}
+
+@-webkit-keyframes PinkAndPurpleBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes PinkAndPurpleBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes PinkAndPurpleBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.dark-contact h2 {
+    color: white;
+}
+
+.dark-contact .lead {
+    color: #FFC259;
+}
+
+.dark-contact .form-holder {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.dark-contact .fluentform label {
+    color: #231B53;
+}
+
+.dark-contact form.fluent_form_1 .ff-btn-submit {
+    background-color: #BD1550;
+    color: #ffffff;
+    width: 100%;
+}
+
+.dark-contact i {
+    color: #FFC259;
+}

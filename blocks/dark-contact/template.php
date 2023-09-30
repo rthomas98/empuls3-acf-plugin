@@ -47,6 +47,16 @@ if ( ! empty( $block['align'] ) ) {
                 </p>
 
                 <hr class="my-4">
+
+                <p>
+                    <i class="fa-regular fa-envelope mr-3"></i>
+                    <?php the_field( 'email', 'option' ); ?>
+                </p>
+
+                <p>
+                    <i class="fa-regular fa-mobile-screen-button mr-3"></i>
+                    <?php the_field( 'phone_number', 'option' ); ?>
+                </p>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="form-holder p-5">

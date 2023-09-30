@@ -1,9 +1,9 @@
 {
-    "key": "group_6505a4d6e3069",
-    "title": "Options: Header",
+    "key": "group_6511d58844de3",
+    "title": "Header Settings",
     "fields": [
         {
-            "key": "field_6505a4d763fc8",
+            "key": "field_6511d588e6eac",
             "label": "Logo",
             "name": "logo",
             "aria-label": "",
@@ -31,9 +31,9 @@
     "location": [
         [
             {
-                "param": "options_page",
+                "param": "post_type",
                 "operator": "==",
-                "value": "header-settings"
+                "value": "post"
             }
         ]
     ],
@@ -46,5 +46,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1695668073
+    "modified": 1695668014
 }

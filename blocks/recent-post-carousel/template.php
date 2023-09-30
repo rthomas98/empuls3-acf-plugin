@@ -63,7 +63,7 @@ if ( ! empty( $block['align'] ) ) {
                             ?>
 
                             <div class="swiper-slide">
-                                <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+                                <img class="mb-4" src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
                                 <div class="swiper-caption">
                                     <h5><?php the_title(); ?></h5>
                                     <p><?php echo wp_trim_words(get_the_excerpt(), 15); ?></p>

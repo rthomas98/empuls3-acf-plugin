@@ -34,7 +34,7 @@ if ( ! empty( $block['align'] ) ) {
     }
 </style>
 
-<section style="background: <?php the_field( 'background_color' ); ?>" id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> purple-hero position-relative">
+<section id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> purple-hero position-relative">
     
     <div class="container">
         <div class="row d-flex align-items-center">

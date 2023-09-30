@@ -1,0 +1,25 @@
+.yellow-cta-img-right {
+    background: linear-gradient(270deg, #ffc259, #ffb536);
+    background-size: 400% 400%;
+
+    -webkit-animation: YellowBackground 7s ease infinite;
+    -moz-animation: YellowBackground 7s ease infinite;
+    animation: YellowBackground 7s ease infinite;
+    border-radius: 20px;
+}
+
+@-webkit-keyframes YellowBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes YellowBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes YellowBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

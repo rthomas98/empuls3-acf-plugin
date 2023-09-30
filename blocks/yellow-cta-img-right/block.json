@@ -2,6 +2,7 @@
   "name": "acf/yellow-cta-img-right",
   "title": "Yellow CTA Image Right",
   "description": "Displays a yellow CTA with an image on the right",
+  "style": [ "file:./yellow-cta-img-right.css"],
   "category": "empuls3-acf-blocks",
   "icon": "",
   "keywords": ["cta", "image right", "yellow"],

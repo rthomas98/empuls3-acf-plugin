@@ -1,0 +1,42 @@
+/* Swiper container adjustments */
+.swiper-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Ensure no unintended margins or padding */
+.swiper-container, .swiper-slide {
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #FFC259 !important;
+}
+
+.swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+    display: inline-block;
+    border-radius: var(--swiper-pagination-bullet-border-radius,50%);
+    background: grey;
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset,10px);
+    right: auto;
+    display: none;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    display: none;
+}

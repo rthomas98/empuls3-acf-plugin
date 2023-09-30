@@ -2,6 +2,7 @@
   "name": "acf/recent-post-carousel-hero",
   "title": "Recent Post Carousel",
   "description": "Display hero banner.",
+  "style": [ "file:./recent-post-carousel.css"],
   "category": "empuls3-acf-blocks",
   "icon": "images-alt2",
   "keywords": ["post", "blog", "carousel"],

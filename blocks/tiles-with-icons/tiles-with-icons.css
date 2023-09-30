@@ -1,7 +1,29 @@
 .tiles-icons {
-    background-color: #BD1550;
+    background: linear-gradient(270deg, #bd1550, #93123f);
+    background-size: 400% 400%;
+
+    -webkit-animation: PinkBackground 18s ease infinite;
+    -moz-animation: PinkBackground 18s ease infinite;
+    animation: PinkBackground 18s ease infinite;
 }
-tiles-icons  .tile {
+
+@-webkit-keyframes PinkBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes PinkBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes PinkBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.tiles-icons .tile {
     background-color: #93123F;
     border-radius: 20px;
 }
@@ -26,13 +48,13 @@ tiles-icons  .tile {
 }
 
 
-.tiles-icons .tile .icon-holder h2 {
+.tiles-icons h2 {
     color: white;
 }
 
-.tiles-icons .tile .icon-holder h3 {
+.tiles-icons h3 {
     color: white;
 }
-.tiles-icons .tile .icon-holder p {
+.tiles-icons p {
     color: white;
 }

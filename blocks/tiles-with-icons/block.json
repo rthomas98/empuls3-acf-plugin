@@ -2,6 +2,7 @@
   "name": "acf/tiles-with-icons",
   "title": "Tiles With Icons",
   "description": "Displays a section tiles that contains an icon, title, and description. ",
+  "style": [ "file:./tiles-with-icons.css"],
   "category": "empuls3-acf-blocks",
   "icon": "align-full-width",
   "keywords": ["tiles", "grid", "block"],
