@@ -23,6 +23,46 @@
             "append": ""
         },
         {
+            "key": "field_6519fdc409030",
+            "label": "Icon",
+            "name": "icon",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6519fddd09031",
+            "label": "Sub Title",
+            "name": "sub_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_650661fb34c7a",
             "label": "Button One Label",
             "name": "button_one_label",
@@ -123,5 +163,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694957481
+    "modified": 1696202221
 }
