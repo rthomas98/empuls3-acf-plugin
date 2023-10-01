@@ -2,6 +2,7 @@
   "name": "acf/purple-cta",
   "title": "Purple CTA",
   "description": "Displays a purple CTA with a title, description, and two buttons.",
+  "style": [ "file:./purple-cta.css"],
   "category": "empuls3-acf-blocks",
   "icon": "",
   "keywords": ["purple", "cta"],

@@ -2,6 +2,7 @@
   "name": "acf/feature-group",
   "title": "Feature Group",
   "description": "Displays a group of features with an image in the center.",
+  "style": [ "file:./features-group.css"],
   "category": "empuls3-acf-blocks",
   "icon": "",
   "keywords": ["feature", "group", "details", "image"],
