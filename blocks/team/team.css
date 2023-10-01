@@ -1,0 +1,13 @@
+.member img {
+    width: 267px;
+    height: 267px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.member h3 {
+    font-size: 24px;
+}
+
+.member p {
+    color: #BD1550;
+}

@@ -2,6 +2,7 @@
   "name": "acf/img-right-three-details",
   "title": "Image Right Three Details",
   "description": "Displays an image on the right with three details on the left.",
+  "style": [ "file:./img-right-three-details.css" ],
   "category": "empuls3-acf-blocks",
   "icon": "",
   "keywords": ["right", "three", "details", "image"],

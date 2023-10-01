@@ -2,6 +2,7 @@
   "name": "acf/team",
   "title": "Team Section",
   "description": "Displays a team section with a title, description, and team members.",
+  "style": [ "file:./team.css" ],
   "category": "empuls3-acf-blocks",
   "icon": "",
   "keywords": ["team", "about"],

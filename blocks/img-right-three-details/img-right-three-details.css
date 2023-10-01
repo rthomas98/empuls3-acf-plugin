@@ -1,0 +1,11 @@
+.detail-holder {
+    border-bottom: solid #D9D9D9 1px;
+}
+.detail-holder:last-child {
+    border-bottom: none;
+}
+
+.details-img {
+    border-radius: 20px;
+    object-fit: cover;
+}
