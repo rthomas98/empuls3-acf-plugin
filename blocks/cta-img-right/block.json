@@ -2,6 +2,7 @@
   "name": "acf/cta-img-right",
   "title": "CTA with Image on the Right",
   "description": "Displays a CTA with an image on the right side.",
+  "style": [ "file:./cta-img-right.css" ],
   "category": "empuls3-acf-blocks",
   "icon": "",
   "keywords": ["cat", "call to action", "right"],
