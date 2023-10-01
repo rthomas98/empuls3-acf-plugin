@@ -2,6 +2,7 @@
   "name": "acf/hero-with-slider",
   "title": "Hero With Slider",
   "description": "Displays a hero with a slider",
+  "style": [ "file:./hero-with-slider.css" ],
   "category": "empuls3-acf-blocks",
   "icon": "",
   "keywords": ["hero", "slider", "images"],
