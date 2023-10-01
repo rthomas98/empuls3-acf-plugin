@@ -11,3 +11,9 @@
 .member p {
     color: #BD1550;
 }
+
+@media (max-width: 767px) {
+    .team {
+        text-align: center;
+    }
+}
