@@ -1,0 +1,16 @@
+.right-tab {
+    background-color: #231B53;
+    color: #fff;
+    border-radius: 20px;
+}
+.right-tab h3 {
+    color: white;
+}
+
+.right-tab .icon-holder {
+    background-color: #FFC259;
+}
+
+.right-tab .icon-holder i {
+    color: #231B53;
+}

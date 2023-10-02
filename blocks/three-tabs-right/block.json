@@ -1,0 +1,19 @@
+{
+  "name": "acf/three-tabs-right",
+  "title": "Three Tabs Right",
+  "description": "Displays ",
+  "style": [ "file:./three-tabs-right.css"],
+  "category": "empuls3-acf-blocks",
+  "icon": "",
+  "keywords": ["three", "tabs", "right"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "mode": true
+
+  }
+}
