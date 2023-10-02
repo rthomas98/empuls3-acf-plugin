@@ -2,6 +2,7 @@
   "name": "acf/faqs-imgs-right",
   "title": "FAQs with Images on the Right",
   "description": "Displays FAQs with Images on the Right",
+  "style": [ "file:./faqs-imgs-right.css"],
   "category": "empuls3-acf-blocks",
   "icon": "",
   "keywords": ["faqs", "images", "right"],
