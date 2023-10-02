@@ -1,0 +1,24 @@
+.six-tabs-right .tab-box h3 {
+    font-size: 18px;
+}
+
+.six-tabs-right .tab-box:hover {
+    background-color: #FFC259;
+    border-radius: 16px;
+}
+
+.six-tabs-right .tab-box .icon-holder {
+    background-color: #BD1550;
+}
+
+.six-tabs-right .tab-box .icon-holder .btn:hover {
+    color: #BD1550 !important;
+}
+
+.six-tabs-right .tab-box .icon-holder:hover {
+    background-color: #1F1946;
+}
+
+.six-tabs-right .tab-box .icon-holder:hover i {
+    color: white;
+}

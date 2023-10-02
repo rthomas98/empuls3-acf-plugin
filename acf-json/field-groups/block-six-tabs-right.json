@@ -187,6 +187,30 @@
                     "placeholder": "",
                     "new_lines": "",
                     "parent_repeater": "field_6507041687579"
+                },
+                {
+                    "key": "field_651abcbe7e079",
+                    "label": "Link",
+                    "name": "link",
+                    "aria-label": "",
+                    "type": "page_link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "capability"
+                    ],
+                    "post_status": "",
+                    "taxonomy": "",
+                    "allow_archives": 1,
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "parent_repeater": "field_6507041687579"
                 }
             ]
         }
@@ -209,5 +233,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694959089
+    "modified": 1696251379
 }
