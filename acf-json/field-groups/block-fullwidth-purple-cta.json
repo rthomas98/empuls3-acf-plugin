@@ -1,34 +1,9 @@
 {
-    "key": "group_65065f3da0bce",
-    "title": "Block: Fullwidth Image Left",
+    "key": "group_651a253952386",
+    "title": "Block: Fullwidth Purple CTA",
     "fields": [
         {
-            "key": "field_65065f3db65d5",
-            "label": "Image",
-            "name": "image",
-            "aria-label": "",
-            "type": "image",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "array",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": "",
-            "preview_size": "medium"
-        },
-        {
-            "key": "field_65065f69598ef",
+            "key": "field_651a25393ed7b",
             "label": "Header",
             "name": "header",
             "aria-label": "",
@@ -48,7 +23,7 @@
             "append": ""
         },
         {
-            "key": "field_65065f7c598f0",
+            "key": "field_651a25b63ed7c",
             "label": "Content",
             "name": "content",
             "aria-label": "",
@@ -68,9 +43,9 @@
             "new_lines": ""
         },
         {
-            "key": "field_65065f90598f1",
-            "label": "Button Label",
-            "name": "button_label",
+            "key": "field_651a26193ed7d",
+            "label": "Button One Label",
+            "name": "button_one_label",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -88,9 +63,50 @@
             "append": ""
         },
         {
-            "key": "field_65065f9a598f2",
-            "label": "Button Link",
-            "name": "button_link",
+            "key": "field_651a262c3ed7e",
+            "label": "Button One Link",
+            "name": "button_one_link",
+            "aria-label": "",
+            "type": "page_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": "",
+            "post_status": "",
+            "taxonomy": "",
+            "allow_archives": 1,
+            "multiple": 0,
+            "allow_null": 0
+        },
+        {
+            "key": "field_651a263d3ed7f",
+            "label": "Button Two Label",
+            "name": "button_two_label",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_651a265d3ed80",
+            "label": "Button Two Link",
+            "name": "button_two_link",
             "aria-label": "",
             "type": "page_link",
             "instructions": "",
@@ -114,7 +130,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf\/fullwidth-img-left"
+                "value": "acf\/fullwidth-purple-cta"
             }
         ]
     ],
@@ -127,5 +143,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1696212278
+    "modified": 1696212633
 }

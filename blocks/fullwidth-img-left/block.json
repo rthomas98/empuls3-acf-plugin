@@ -2,6 +2,7 @@
   "name": "acf/fullwidth-img-left",
   "title": "Fullwidth Image Left",
   "description": "Displays a fullwidth image on the left and content on the right.",
+  "style": [ "file:./fullwidth-img-left.css"],
   "category": "empuls3-acf-blocks",
   "icon": "",
   "keywords": ["image", "left", "fullwidth"],

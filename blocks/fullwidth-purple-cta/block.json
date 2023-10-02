@@ -1,0 +1,19 @@
+{
+  "name": "acf/fullwidth-purple-cta",
+  "title": "Fullwidth Purple CTA",
+  "description": "Displays a fullwidth purple CTA with a purple background",
+  "style": [ "file:./full-width-purple-cta.css"],
+  "category": "empuls3-acf-blocks",
+  "icon": "",
+  "keywords": ["cta", "call to action", "fullwidth"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "mode": true
+
+  }
+}

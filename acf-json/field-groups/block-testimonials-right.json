@@ -3,6 +3,26 @@
     "title": "Block: Testimonials Right",
     "fields": [
         {
+            "key": "field_651a04a2b5cc3",
+            "label": "Sub Title",
+            "name": "sub_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_65065b5061403",
             "label": "Header",
             "name": "header",
@@ -215,5 +235,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694916129
+    "modified": 1696204915
 }

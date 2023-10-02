@@ -1,10 +1,10 @@
 {
-  "name": "acf/testimonials-right",
-  "title": "Testimonials Right",
-  "description": "Displays a testimonials block with content on the left",
+  "name": "acf/faqs-right",
+  "title": "FAQs Right",
+  "description": "Displays FAQs on the right side of the page.",
   "category": "empuls3-acf-blocks",
   "icon": "",
-  "keywords": ["testimonials", "right"],
+  "keywords": ["faqs", "right"],
   "acf": {
     "mode": "preview",
     "renderTemplate": "template.php"
