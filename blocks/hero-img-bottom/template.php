@@ -32,7 +32,7 @@ if ( ! empty( $block['align'] ) ) {
     }
 </style>
 
-<div id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> hero-img-bottom py-5">
+<div id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> hero-img-bottom pt-5">
     <div class="container">
         <div class="row">
             <div class="col text-center">

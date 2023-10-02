@@ -1,0 +1,19 @@
+{
+  "name": "acf/case-studies-header",
+  "title": "Case Studies Header",
+  "description": "Displays a header for case studies",
+  "style": [ "file:./case-studies-header.css"],
+  "category": "empuls3-acf-blocks",
+  "icon": "",
+  "keywords": ["case studies", "header", "hero"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "mode": true
+
+  }
+}

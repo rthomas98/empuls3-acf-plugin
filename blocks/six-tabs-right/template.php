@@ -32,9 +32,9 @@ if ( ! empty( $block['align'] ) ) {
     }
 </style>
 
-<div id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> six-tabs-right py-5">
-    <div class="container">
-        <div class="row">
+<div id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> six-tabs-right ">
+    <div class="container py-5">
+        <div class="row d-flex align-items-center">
             <div class="col-sm-12 col-md-12 col-lg-5 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
                 <p class="lead">
                     <?php the_field( 'sub_title' ); ?>
