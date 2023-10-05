@@ -2,6 +2,7 @@
   "name": "acf/contact-info",
   "title": "Contact Info",
   "description": "Displays contact info",
+  "style": [ "file:./contact-info.css"],
   "category": "empuls3-acf-blocks",
   "icon": "",
   "keywords": ["contact", "information", "contact us"],
@@ -10,7 +11,7 @@
     "renderTemplate": "template.php"
   },
   "supports": {
-    "align": true,
+    "align": ["wide", "full"],
     "anchor": true,
     "mode": true
 

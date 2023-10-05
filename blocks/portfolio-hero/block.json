@@ -2,6 +2,7 @@
   "name": "acf/portfolio-hero",
   "title": "Portfolio Hero",
   "description": "Displays a hero image with content and a button.",
+  "style": [ "file:./portfolio-hero.css"],
   "category": "empuls3-acf-blocks",
   "icon": "",
   "keywords": ["portfolio", "hero", "image", "content"],

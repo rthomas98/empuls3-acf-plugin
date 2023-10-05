@@ -3,22 +3,22 @@
     color: #fff;
     background: linear-gradient(270deg, #231b53, #bd1550, #ffc259);
     background-size: 600% 600%;
-    -webkit-animation: AnimationName 17s ease infinite;
-    -moz-animation: AnimationName 17s ease infinite;
-    animation: AnimationName 17s ease infinite;
+    -webkit-animation: PurpleHero 17s ease infinite;
+    -moz-animation: PurpleHero 17s ease infinite;
+    animation: PurpleHero 17s ease infinite;
 }
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes PurpleHero {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes PurpleHero {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@keyframes AnimationName {
+@keyframes PurpleHero {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}

@@ -2,6 +2,7 @@
   "name": "acf/hero-img-bottom",
   "title": "Hero Image Bottom",
   "description": "Displays a hero image with text and button on the top of the image.",
+  "style": [ "file:./hero-img-bottom.css"],
   "category": "empuls3-acf-blocks",
   "icon": "",
   "keywords": ["hero", "slider", "images"],

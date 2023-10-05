@@ -1,0 +1,38 @@
+.contact-hero {
+    position: relative; /* Makes sure the child elements positioned absolutely are relative to this container */
+    overflow: hidden; /* Keeps the image within the container bounds */
+    border-radius: 0px 0px 245px 0px;
+    height: 660px;
+    color: white;
+}
+
+.contact-hero h1 {
+    color: white;
+}
+
+.background-img {
+    position: absolute; /* This will position the image absolute to its parent which is .contact-hero */
+    top: 0;
+    left: 0;
+    width: 100%; /* Make sure the image covers the whole width of the container */
+    height: 100%; /* Make sure the image covers the whole height of the container */
+    object-fit: cover; /* Ensures the image dimensions are maintained while covering the container */
+    z-index: 1; /* Places the image below the text content */
+}
+
+.container {
+    position: relative; /* To ensure it's positioned above the background image */
+    z-index: 2; /* Places content above the background image */
+}
+
+@media (max-width: 768px) {
+    .contact-hero {
+        position: relative; /* Makes sure the child elements positioned absolutely are relative to this container */
+        overflow: hidden; /* Keeps the image within the container bounds */
+        border-radius: 0px;
+        height: auto;
+        padding: 50px 20px;
+    }
+}
+
+/* Depending on the image, you might want to add more styles to ensure text readability, like text shadows or background overlays */

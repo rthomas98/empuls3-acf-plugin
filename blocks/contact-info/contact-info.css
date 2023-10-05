@@ -1,0 +1,17 @@
+.contact-info .lead {
+    color: #BD1550;
+}
+
+.contact-info .contact-box {
+    background-color: #F9F9F9;
+    border-radius: 20px;
+}
+
+.contact-info .contact-box .icon-holder {
+    background-color: white;
+    margin: 30px auto;
+}
+
+.contact-info .contact-box .icon-holder i {
+    color: #BD1550;
+}

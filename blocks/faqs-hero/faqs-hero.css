@@ -1,0 +1,16 @@
+.faqs-hero {
+    background-color: #BD1550;
+    color: white;
+}
+
+.faqs-hero .lead {
+    color: #FFC259;
+}
+
+.faqs-hero h1 {
+    color: white;
+}
+
+.faqs-hero img {
+    border-radius: 20px;
+}

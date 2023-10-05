@@ -2,6 +2,7 @@
   "name": "acf/contact-hero",
   "title": "Contact Hero",
   "description": "Displays a hero section with content",
+  "style": ["file:./contact-hero.css"],
   "category": "empuls3-acf-blocks",
   "icon": "",
   "keywords": ["contact", "hero", "contact hero"],
@@ -10,9 +11,11 @@
     "renderTemplate": "template.php"
   },
   "supports": {
-    "align": true,
+    "align": ["wide", "full"],
     "anchor": true,
-    "mode": true
-
+    "mode": true,
+    "default": {
+      "align": "full"
+    }
   }
 }

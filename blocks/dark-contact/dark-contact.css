@@ -47,6 +47,12 @@
     width: 100%;
 }
 
+.dark-contact form.fluent_form_3 .ff-btn-submit {
+    background-color: #BD1550;
+    color: #ffffff;
+    width: 100%;
+}
+
 .dark-contact i {
     color: #FFC259;
 }

@@ -1,0 +1,11 @@
+.general-faqs {
+    background-color: #F9F9F9;
+}
+
+.general-faqs .accordion-item {
+    color: black;
+    background-color: var(--bs-accordion-bg);
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}

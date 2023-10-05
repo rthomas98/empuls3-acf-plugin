@@ -2,6 +2,7 @@
   "name": "acf/general-faqs",
   "title": "General FAQs",
   "description": "Displays a list of FAQs",
+  "style": [ "file:./general-faqs.css"],
   "category": "empuls3-acf-blocks",
   "icon": "",
   "keywords": ["faqs", "questions", "anwsers"],
@@ -10,7 +11,7 @@
     "renderTemplate": "template.php"
   },
   "supports": {
-    "align": true,
+    "align": ["wide", "full"],
     "anchor": true,
     "mode": true
 

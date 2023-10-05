@@ -23,6 +23,26 @@
             "append": ""
         },
         {
+            "key": "field_651dced49d7a2",
+            "label": "Sub Title",
+            "name": "sub_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_65071f90325cc",
             "label": "Button one Label",
             "name": "button_one_label",
@@ -123,5 +143,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694965992
+    "modified": 1696452328
 }

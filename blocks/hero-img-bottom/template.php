@@ -46,7 +46,7 @@ if ( ! empty( $block['align'] ) ) {
                     <?php the_field( 'content' ); ?>
                 </p>
 
-                <div class="d-grid gap-2 d-md-block mt-4">
+                <div class="d-grid gap-2 d-md-block mt-4 mb-5">
                     <?php $button_one_link = get_field( 'button_one_link' ); ?>
                     <?php if ( $button_one_link ) : ?>
                         <a class="btn btn btn-secondary btn-lg" role="button" href="<?php echo esc_url( $button_one_link); ?>">
@@ -65,7 +65,7 @@ if ( ! empty( $block['align'] ) ) {
 
                 <?php $image = get_field( 'image' ); ?>
                 <?php if ( $image ) : ?>
-                    <img class="img-fluid" src="<?php echo esc_url( $image['url'] ); ?>" alt="<?php echo esc_attr( $image['alt'] ); ?>" />
+                    <img class="img-fluid mb-5" src="<?php echo esc_url( $image['url'] ); ?>" alt="<?php echo esc_attr( $image['alt'] ); ?>" />
                 <?php endif; ?>
             </div>
         </div>
