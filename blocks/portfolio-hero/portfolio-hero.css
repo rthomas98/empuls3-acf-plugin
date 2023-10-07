@@ -2,6 +2,13 @@
     background-color: #231B53;
 }
 
+.portfolio-hero .stripe-right {
+    position: absolute;
+    top: 35%;
+    right: 0;
+    z-index: 0;
+}
+
 .hero-left {
     background-color: white;
     border-radius: 20px;

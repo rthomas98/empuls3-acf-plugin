@@ -35,7 +35,6 @@ if ( ! empty( $block['align'] ) ) {
 </style>
 
 <section id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> purple-hero position-relative">
-    
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-sm-12 col-md-12 col-lg-6 mb-4 mb-sm-4 mb-md-4 mb-lg-0 p-sm-5 p-md-4 p-lg-0 hero-text">
@@ -48,7 +47,7 @@ if ( ! empty( $block['align'] ) ) {
                 <p>
                     <?php the_field( 'content' ); ?>
                 </p>
-                <div class="d-grid gap-3 d-md-block">
+                <div class="d-grid gap-2 d-md-block">
 
                     <?php $button_link = get_field( 'button_link' ); ?>
                     <?php if ( $button_link ) : ?>

@@ -10,6 +10,8 @@
  * @param   (int|string) $post_id The post ID this block is saved to.
  */
 
+$image_path = plugins_url('empuls3-acf-plugin/images/stripe-right.svg');
+
 // Create id attribute allowing for custom "anchor" value.
 $id = 'portfolio-hero-' . $block['id'];
 if ( ! empty($block['anchor'] ) ) {
@@ -33,6 +35,7 @@ if ( ! empty( $block['align'] ) ) {
 </style>
 
 <div id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $classes ); ?> portfolio-hero py-5">
+    <img class="stripe-right" src="<?php echo esc_url($image_path); ?>" alt="a red line">
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-sm-12 col-md-12 col-lg-6 mb-4 mb-sm-4 mb-md-4 mb-lg-0 p-5 hero-left">
