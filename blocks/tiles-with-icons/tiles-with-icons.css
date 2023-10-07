@@ -28,6 +28,15 @@
     border-radius: 20px;
 }
 
+.tiles-icons .tile:hover {
+    background-color: #1F1946;
+}
+
+.tiles-icons .tile:hover .btn-primary {
+    background-color: #93123F;
+}
+
+
 .tiles-icons .tile .lead {
     color: #FFC259;
 }
@@ -57,4 +66,11 @@
 }
 .tiles-icons p {
     color: white;
+}
+
+@media (max-width: 767px) {
+    .tiles-icons .tile {
+        height: auto;
+        min-height: auto;
+    }
 }
